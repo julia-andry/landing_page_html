@@ -1,0 +1,317 @@
+.topmenu {
+    display: flex;
+    justify-content: end;
+}
+.logo {
+    margin-right: 1110px;
+}
+.item {
+    color: #00205a;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    align-self: center;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.coast_top {
+    width: 100%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.field {
+    padding: 10px;
+    border: none;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.bottom-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.heading1 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.button {
+    display: flex;
+    justify-content: end;
+}
+.btn {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: #00205a;
+    padding: 15px;
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: #ff8200;
+    cursor: pointer;
+}
+#Beach_video {
+    height: 450px;
+}
+.heading2 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #00205a;
+} 
+.heading2:hover {
+    color:#ff8200;
+}
+.tagline {
+    display: flex;
+    justify-content: center;
+}
+.heading3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #ff8200;
+    margin-left: 20px;
+    text-decoration: underline;
+    text-underline-offset: 50%;
+}
+.text {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #00205a;
+    padding: 10px;
+}
+.costs {
+    display: flex;
+}
+.costs_text, .list {
+    display: flex;
+    flex-direction: column;
+}
+.map {
+    width: 100%;
+}
+.container1 {
+    position: relative;
+    text-align: right;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+.container2 {
+    position: relative;
+    text-align: left;
+}
+.top-right {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+}
+.rectangle {
+    opacity: 70%;
+}
+.two_pic {
+    display: flex;
+}
+.pictures {
+    display: flex;
+    flex-direction: column;
+}
+.bridge {
+    padding: 10px;
+}
+.book {
+    display: flex;
+}
+.plunge, .work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.group {
+    display: flex;
+    flex: wrap;
+}
+.heading4 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ff8200;
+}
+.heading5 {
+    margin-top: 50px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #00205a;
+    padding: 20px;
+}
+.text1 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+}
+.btn1 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    background-color: #ff8200;
+    padding: 15px;
+    font-size: 18px;
+}
+.btn1:hover {
+    cursor: pointer;
+}
+@media all and (max-width: 1500px){
+    .logo {
+        margin-right: 400px;
+        width: 90px;
+    }
+    .item {
+        font-size: 20px;
+    }
+    .heading {
+        font-size: 40px;
+    }
+    .costs, .book {
+        display: flex;
+        flex-direction: column;
+    }
+    #Beach_video {
+        width: 100%;
+    }
+    .bottom-right {
+        bottom: 10px;
+    }
+}
+
+@media all and (max-width: 800px){
+    .topmenu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logo {
+        margin: 5px;
+        width: 70px;
+    }
+    .item {
+        font-size: 15px;
+    }
+    .coast_top, #Beach_video, .map {
+        width: 100%;
+    }
+    .heading, .heading2, .heading3 {
+        font-size: 20px;
+    }
+    .heading1 {
+        font-size: 15px;
+    }
+    .btn, .btn1 {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .book {
+        display: flex;
+    }
+    .text {
+        font-size: 8px;
+        padding: 1px;
+    }
+    .rectangle {
+        height: 200px;
+    }
+    .bottom-right {
+        position: absolute;
+        bottom: 20px;
+        right: 100px;
+    }
+    .costs {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bridge {
+        width: 150px;
+    }
+    .heading4 {
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 500px){
+    .topmenu {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .item {
+        font-size: 8px;
+    }
+    .logo {
+        width: 50px;
+    }
+    .heading, .heading2, .heading3 {
+        font-size: 12px;
+    }
+    .heading1 {
+        font-size: 6px;
+    }
+    .btn, .btn1 {
+        padding: 5px;
+        font-size: 6px;
+    }
+    .field {
+        font-size: 10px;
+        padding: 1px;
+        border: none;
+    }
+    .costs {
+        display: flex;
+        flex-direction: column;
+    }
+    .text {
+        font-size: 6px;
+    }
+    .bottom-right {
+        bottom: 5px;
+        right: 15px;
+    }
+    .rectangle {
+        height:115px;
+        width: 340px;
+    }
+    .book {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading4 {
+        font-size: 10px;
+    }
+    .btn1 {
+        padding: 5px;
+        font-size: 15px;
+    }
+    .about {
+        width: 100px;
+    }
+
+}
